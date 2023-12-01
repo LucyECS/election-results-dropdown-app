@@ -11,7 +11,7 @@ FONT = "Roboto"
 FILENAME = {
     'Council 2020': "https://github.com/LucyECS/girl_psephologist-/blob/e24caae1fe12bc0399bc27a27527cafb213e24e0/Election%20Results/Council2020/created/Council2020HoverText.csv?raw=true",
     'State 2020': "https://github.com/LucyECS/girl_psephologist-/blob/e24caae1fe12bc0399bc27a27527cafb213e24e0/Election%20Results/State2020/created/State2020HoverText.csv?raw=true",
-    'Federal 2022': "https://github.com/LucyECS/girl_psephologist-/blob/e24caae1fe12bc0399bc27a27527cafb213e24e0/Election%20Results/Federal2022/created/Federal2022HoverText.csv"
+    'Federal 2022': "https://github.com/LucyECS/girl_psephologist-/blob/e24caae1fe12bc0399bc27a27527cafb213e24e0/Election%20Results/Federal2022/created/Federal2022HoverText.csv?raw=true"
 }
 
 
