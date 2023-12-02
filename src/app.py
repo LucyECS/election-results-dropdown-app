@@ -77,7 +77,7 @@ app.layout = html.Div(
                     {'label': 'State 2020', 'value': 'State 2020'},
                     {'label': 'Federal 2022', 'value': 'Federal 2022'}
                 ],
-                value='Council 2020',
+                value='State 2020',
                 labelStyle={'display': 'inline-block', 'margin-right': '10px', 'fontFamily': FONT}
             ),
             # electorate dropdown
@@ -108,7 +108,7 @@ app.layout = html.Div(
                     {'label': 'State 2020', 'value': 'State 2020'},
                     {'label': 'Federal 2022', 'value': 'Federal 2022'}
                 ],
-                value='Council 2020',
+                value='Federal 2022',
                 labelStyle={'display': 'inline-block', 'margin-right': '10px', 'fontFamily': FONT}
             ),
             # electorate dropdown
@@ -124,18 +124,12 @@ app.layout = html.Div(
             'fontFamily': FONT
         },
         children=[
-            # Title
-            dcc.Textarea(
-                id="author",
-                value="Created by Lucy Carra Schulz, B. Math",
-                style={'fontFamily': FONT,
-                       'contentEditable': 'false',
-                       'position': 'absolute',
-                       'bottom': '0',
-                       'left': '0',
-                       'draggable': 'false',
-                       }
-            )
+            html.H5('Created by Lucy Carra Schulz, B. Math', 
+                    style={'text-align': 'center', 
+                           'fontFamily': FONT,
+                           'position': 'absolute',
+                           'bottom': '0',
+                           'left': '0',})
         ]
     ),
     ]
