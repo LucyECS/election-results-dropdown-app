@@ -116,6 +116,27 @@ app.layout = html.Div(
             html.Div(id="electorate-hovertext3")
         ]
     ),
+    html.Div(
+        ##### Author #####
+        style={
+            'backgroundColor': BACKGROUND,
+            'fontFamily': FONT
+        },
+        children=[
+            # Title
+            dcc.Textarea(
+                id="author",
+                value="Created by Lucy Carra Schulz, B. Math",
+                style={'fontFamily': FONT,
+                       'contentEditable': 'false',
+                       'position': 'absolute',
+                       'bottom': '0',
+                       'left': '0',
+                       'draggable': 'false',
+                       }
+            )
+        ]
+    ),
     ]
 )
 
@@ -152,7 +173,7 @@ def create_electorate_hovertext(electorate, election):
     return dcc.Textarea(
         id="electorate-hovertext-textbox1",
         value=hovertext,
-        style={'width': '100%', 'height': '100vh', 'fontFamily': FONT}
+        style={'width': '100%', 'height': '75vh', 'fontFamily': FONT}
     )
 
 ##### DIV 2 CALLBACKS #####
@@ -187,7 +208,7 @@ def create_electorate_hovertext(electorate, election):
     return dcc.Textarea(
         id="electorate-hovertext-textbox2",
         value=hovertext,
-        style={'width': '100%', 'height': '100vh', 'fontFamily': FONT}
+        style={'width': '100%', 'height': '75vh', 'fontFamily': FONT}
     )
 
 ##### DIV 3 CALLBACKS #####
@@ -222,7 +243,7 @@ def create_electorate_hovertext(electorate, election):
     return dcc.Textarea(
         id="electorate-hovertext-textbox3",
         value=hovertext,
-        style={'width': '100%', 'height': '100vh', 'fontFamily': FONT}
+        style={'width': '100%', 'height': '75vh', 'fontFamily': FONT}
     )
 
 ##### UPDATE MAP TITLE CALLBACKS #####
