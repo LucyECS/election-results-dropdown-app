@@ -4,8 +4,7 @@ import pandas as pd
 
 # pale pastel green
 BACKGROUND = "#C1E1C1"
-# Set font to roboto
-FONT = "Roboto"
+FONT = "Calibri"
 
 
 FILENAME = {
@@ -129,7 +128,7 @@ app.layout = html.Div(
                            'fontFamily': FONT,
                            'position': 'absolute',
                            'bottom': '0',
-                           'left': '0',})
+                           'left': '10px',})
         ]
     ),
     ]
