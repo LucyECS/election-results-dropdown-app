@@ -46,7 +46,7 @@ app.layout = html.Div(
                     {'label': 'State 2020', 'value': 'State 2020'},
                     {'label': 'Federal 2022', 'value': 'Federal 2022'}
                 ],
-                value='Council 2020',
+                value='State 2020',
                 labelStyle={'display': 'inline-block', 'margin-right': '10px', 'fontFamily': FONT}
             ),
             # electorate dropdown
@@ -107,7 +107,7 @@ app.layout = html.Div(
                     {'label': 'State 2020', 'value': 'State 2020'},
                     {'label': 'Federal 2022', 'value': 'Federal 2022'}
                 ],
-                value='Federal 2022',
+                value='State 2020',
                 labelStyle={'display': 'inline-block', 'margin-right': '10px', 'fontFamily': FONT}
             ),
             # electorate dropdown
